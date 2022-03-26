@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Cliente>
+    <Id>2</Id>
+    <Nome>Natália Costa</Nome>
+    <Nascimento>1999-10-22T00:00:00</Nascimento>
+  </Cliente>
+  <Cliente>
+    <Id>1</Id>
+    <Nome>Sabrina Lima</Nome>
+    <Nascimento>2000-02-02T00:00:00</Nascimento>
+  </Cliente>
+</ArrayOfCliente>

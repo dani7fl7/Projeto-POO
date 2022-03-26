@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLivro xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Livro>
+    <Id>31</Id>
+    <Descricao>Harry Potter 1</Descricao>
+    <Quantidade>21</Quantidade>
+    <Preco>50</Preco>
+    <GeneroId>11</GeneroId>
+    <AutorId>21</AutorId>
+  </Livro>
+  <Livro>
+    <Id>32</Id>
+    <Descricao>Correr ou Morrer</Descricao>
+    <Quantidade>12</Quantidade>
+    <Preco>50</Preco>
+    <GeneroId>15</GeneroId>
+    <AutorId>24</AutorId>
+  </Livro>
+  <Livro>
+    <Id>33</Id>
+    <Descricao>Jogos Vorazes</Descricao>
+    <Quantidade>114</Quantidade>
+    <Preco>50</Preco>
+    <GeneroId>15</GeneroId>
+    <AutorId>23</AutorId>
+  </Livro>
+  <Livro>
+    <Id>34</Id>
+    <Descricao>Avalon High</Descricao>
+    <Quantidade>25</Quantidade>
+    <Preco>29.9</Preco>
+    <GeneroId>11</GeneroId>
+    <AutorId>22</AutorId>
+  </Livro>
+  <Livro>
+    <Id>35</Id>
+    <Descricao>Diário da Princesa</Descricao>
+    <Quantidade>11</Quantidade>
+    <Preco>24.9</Preco>
+    <GeneroId>13</GeneroId>
+    <AutorId>22</AutorId>
+  </Livro>
+  <Livro>
+    <Id>36</Id>
+    <Descricao>Desventuras em Série 1</Descricao>
+    <Quantidade>7</Quantidade>
+    <Preco>35.5</Preco>
+    <GeneroId>11</GeneroId>
+    <AutorId>25</AutorId>
+  </Livro>
+</ArrayOfLivro>

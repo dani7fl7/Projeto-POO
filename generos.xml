@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGenero xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Genero>
+    <Id>15</Id>
+    <Descricao>Distopia</Descricao>
+  </Genero>
+  <Genero>
+    <Id>11</Id>
+    <Descricao>Infanto Juvenil</Descricao>
+  </Genero>
+  <Genero>
+    <Id>14</Id>
+    <Descricao>Policial</Descricao>
+  </Genero>
+  <Genero>
+    <Id>13</Id>
+    <Descricao>Romance</Descricao>
+  </Genero>
+  <Genero>
+    <Id>12</Id>
+    <Descricao>Terror</Descricao>
+  </Genero>
+</ArrayOfGenero>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAutor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Autor>
+    <Id>24</Id>
+    <Descricao>James Dashner</Descricao>
+  </Autor>
+  <Autor>
+    <Id>21</Id>
+    <Descricao>JK Rowling</Descricao>
+  </Autor>
+  <Autor>
+    <Id>25</Id>
+    <Descricao>Lemony Snicket</Descricao>
+  </Autor>
+  <Autor>
+    <Id>22</Id>
+    <Descricao>Meg Cabot</Descricao>
+  </Autor>
+  <Autor>
+    <Id>23</Id>
+    <Descricao>Suzanne Collins</Descricao>
+  </Autor>
+</ArrayOfAutor>

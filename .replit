@@ -1,0 +1,2 @@
+language = "csharp"
+run = "set -e; csc Main.cs arquivo.cs autor.cs cliente.cs genero.cs livro.cs  nautor.cs ncliente.cs ngenero.cs nlivro.cs nvenda.cs venda.cs vendaitem.cs; mono Main.exe"
