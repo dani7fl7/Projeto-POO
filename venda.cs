@@ -78,4 +78,6 @@ public class Venda {
   public void ItemExcluir() {
     itens.Clear();
   }
+
+  
 }

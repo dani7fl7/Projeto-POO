@@ -59,13 +59,10 @@ class NVenda {
 
   public void Inserir(Venda v, bool carrinho) {
     int max = 0;
-    foreach (Venda obj in vendas)
-      if (obj.GetId() > max) max = obj.GetId();
+    /* foreach (Venda obj in vendas)
+      if (obj.GetId() > max) max = obj.GetId(); */
 
     max = vendas.Max(obj => obj.GetId()); 
-    
-    
-    
     v.SetId(max + 1);
     vendas.Add(v);
     v.SetCarrinho(carrinho);

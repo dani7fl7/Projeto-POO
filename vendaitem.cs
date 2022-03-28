@@ -37,6 +37,6 @@ public class VendaItem {
     return livro;
   }
   public override string ToString() {
-    return livro.GetDescricao() + " - Quantidade:" + quantidade + " - Preço: " + preco.ToString("c2");
+    return livro.GetDescricao() + " - Quantidade:" + quantidade + " - Preço: " + preco.ToString("0.00");
   }
 }

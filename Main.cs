@@ -30,7 +30,7 @@ class MainClass {
 
     int ol = 0;
     int perfil = 0;
-    Console.WriteLine ("---- SEBO VIRTUAL DE LIVROS ------");
+    Console.WriteLine ("----- SEBO VIRTUAL DE LIVROS -----");
     do {
       try {
         if (perfil == 0) {
@@ -101,14 +101,13 @@ class MainClass {
   }
   public static int MenuUsuario() {
     Console.WriteLine();
-    Console.WriteLine("----------------------------------");
-    Console.WriteLine("");
+
     Console.WriteLine("1 - VENDEDOR - Entrar");
     Console.WriteLine("2 - CLIENTE - Entrar");
     Console.WriteLine("0 - FIM");
     Console.WriteLine("");
     Console.WriteLine("----------------------------------");
-    Console.Write("Escolha uma opção: ");
+    Console.Write("Selecione uma opção: ");
     int ol = int.Parse(Console.ReadLine());
     Console.WriteLine();
     return ol; 
@@ -142,7 +141,7 @@ class MainClass {
     Console.WriteLine("99 - Voltar");
     Console.WriteLine("00  - FIM");
     Console.WriteLine("----------------------------------");
-    Console.Write("Escolha uma opção: ");
+    Console.Write("Selecione uma opção: ");
     int ol = int.Parse(Console.ReadLine());
     Console.WriteLine();
     return ol; 
@@ -154,7 +153,7 @@ class MainClass {
     Console.WriteLine("99 - VOLTAR");
     Console.WriteLine("0  - FIM");
     Console.WriteLine("----------------------------------");
-    Console.Write("Escolha uma opção: ");
+    Console.Write("Selecione uma opção: ");
     int ol = int.Parse(Console.ReadLine());
     Console.WriteLine();
     return ol; 
@@ -173,7 +172,7 @@ class MainClass {
     Console.WriteLine("99 - Logout");
     Console.WriteLine("0  - Fim");
     Console.WriteLine("----------------------------------");
-    Console.Write("Escolha uma opção: ");
+    Console.Write("Selecione uma opção: ");
     int ol = int.Parse(Console.ReadLine());
     Console.WriteLine();
     return ol; 
@@ -390,18 +389,22 @@ class MainClass {
         Console.WriteLine("  " + item);
     }    
     Console.WriteLine();
-
+    Console.WriteLine("Vendas");
+    
     var r1 = vs.Select(v => new {
       MesAno = v.Data.Month + "/" + v.Data.Year,
+      Quantidade = v.Itens.Sum(vi => vi.Quantidade),
       Total  = v.Itens.Sum(vi => vi.Quantidade * vi.Preco)
     });
 
     foreach(var item in r1) Console.WriteLine(item);
     Console.WriteLine();
+    Console.WriteLine("Total");
 
     var r2 = r1.GroupBy(item => item.MesAno,
       (key, items) => new {
         MesAno = key,
+        Quantidade = items.Sum(vi => vi.Quantidade),
         Total = items.Sum(item => item.Total) });
 
     foreach(var item in r2) Console.WriteLine(item);
